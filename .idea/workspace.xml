@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c17e840-3ca6-474e-98ab-db7fd9b14951" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/Eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/Pacient-service/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-api-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/authentication-service/target/" />
+    <ignored path="$PROJECT_DIR$/spring-eureka-auth/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="230" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/JwtConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/repositories/PacientRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/services/PacientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="233" selection-start-line="21" selection-start-column="233" selection-end-line="21" selection-end-column="233" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eureka-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/login.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/pacientet.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/models/User.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/PacientServiceApplication.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/repositories/PacientRepository.java" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/security/JwtConfig.java" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/security/SecurityTokenConfig.java" />
+        <option value="$PROJECT_DIR$/authentication-service/pom.xml" />
+        <option value="$PROJECT_DIR$/authentication-service/src/main/java/com/eureka/auth/security/JwtConfig.java" />
+        <option value="$PROJECT_DIR$/authentication-service/src/main/java/com/eureka/auth/security/JwtUsernameAndPasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/authentication-service/src/main/java/com/eureka/auth/security/SecurityCredentialsConfig.java" />
+        <option value="$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/JwtConfig.java" />
+        <option value="$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/JwtUsernameAndPasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/spring-eureka-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/security/JwtAuthenticationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/ZuulApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/security/JwtTokenAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/okta-auth/spring-boot-microservices-example/edge-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/okta-auth/spring-boot-microservices-example/beer-catalog-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/SecurityCredentialsConfig.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/models/Pacient.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/test/java/com/polyclinic/pacientservice/PacientServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/ClientAppServiceProxy.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/AppointmentServiceProcxy.java" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/AppointmentServiceProxy.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/services/PacientService.java" />
+        <option value="$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/controllers/PacientController.java" />
+        <option value="$PROJECT_DIR$/client/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-eureka-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-eureka-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="200" />
+    <option name="y" value="-23" />
+    <option name="width" value="1035" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="appointments-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Pacient-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Pacient-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Pacient-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Pacient-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Pacient-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pacientservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Pacient-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pacientservice" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PolyClinicWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PolyClinicWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-eureka-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eureka.auth.security" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.33109918" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.pacient-service">
+    <configuration name="PacientServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pacient-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polyclinic.pacientservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polyclinic.pacientservice" />
+      <option name="MAIN_CLASS_NAME" value="com.polyclinic.pacientservice.PacientServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacientServiceApplicationTests.addNewPacientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pacient-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polyclinic.pacientservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polyclinic.pacientservice" />
+      <option name="MAIN_CLASS_NAME" value="com.polyclinic.pacientservice.PacientServiceApplicationTests" />
+      <option name="METHOD_NAME" value="addNewPacientTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacientServiceApplicationTests.deletePacByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pacient-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polyclinic.pacientservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polyclinic.pacientservice" />
+      <option name="MAIN_CLASS_NAME" value="com.polyclinic.pacientservice.PacientServiceApplicationTests" />
+      <option name="METHOD_NAME" value="deletePacByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacientServiceApplicationTests.getPacientsSizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pacient-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polyclinic.pacientservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polyclinic.pacientservice" />
+      <option name="MAIN_CLASS_NAME" value="com.polyclinic.pacientservice.PacientServiceApplicationTests" />
+      <option name="METHOD_NAME" value="getPacientsSizeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacientServiceApplicationTests.getPacientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pacient-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polyclinic.pacientservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polyclinic.pacientservice" />
+      <option name="MAIN_CLASS_NAME" value="com.polyclinic.pacientservice.PacientServiceApplicationTests" />
+      <option name="METHOD_NAME" value="getPacientsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringEurekaAuthApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-eureka-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.auth.SpringEurekaAuthApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.polyclinic.eurekaserver.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pacient-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pacient-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.polyclinic.pacientservice.PacientServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zuul api gateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.polyclinic.zuulapigateway.ZuulApiGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PacientServiceApplicationTests.getPacientsTest" />
+      <item itemvalue="JUnit.PacientServiceApplicationTests.getPacientsSizeTest" />
+      <item itemvalue="JUnit.PacientServiceApplicationTests.addNewPacientTest" />
+      <item itemvalue="JUnit.PacientServiceApplicationTests" />
+      <item itemvalue="JUnit.PacientServiceApplicationTests.deletePacByIdTest" />
+      <item itemvalue="Spring Boot.eureka server" />
+      <item itemvalue="Spring Boot.pacient-service" />
+      <item itemvalue="Spring Boot.zuul api gateway" />
+      <item itemvalue="Spring Boot.SpringEurekaAuthApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PacientServiceApplicationTests.deletePacByIdTest" />
+        <item itemvalue="JUnit.PacientServiceApplicationTests" />
+        <item itemvalue="JUnit.PacientServiceApplicationTests.addNewPacientTest" />
+        <item itemvalue="JUnit.PacientServiceApplicationTests.getPacientsTest" />
+        <item itemvalue="JUnit.PacientServiceApplicationTests.getPacientsSizeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringRepositoriesView">
+    <option name="searchInLibraries" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c17e840-3ca6-474e-98ab-db7fd9b14951" name="Default Changelist" comment="" />
+      <created>1558470364134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558470364134</updated>
+      <workItem from="1558470367881" duration="665000" />
+      <workItem from="1558516731781" duration="829000" />
+      <workItem from="1558519070612" duration="12388000" />
+      <workItem from="1558552410332" duration="10522000" />
+      <workItem from="1558641004785" duration="3700000" />
+      <workItem from="1558689508390" duration="6049000" />
+      <workItem from="1558706991099" duration="5050000" />
+      <workItem from="1558899799616" duration="131000" />
+      <workItem from="1558913042165" duration="1011000" />
+      <workItem from="1558954172808" duration="2257000" />
+      <workItem from="1558979031519" duration="11000" />
+      <workItem from="1558992858689" duration="4061000" />
+      <workItem from="1559132922019" duration="4927000" />
+      <workItem from="1559247094685" duration="4371000" />
+      <workItem from="1559286225152" duration="8654000" />
+      <workItem from="1559321415644" duration="2826000" />
+      <workItem from="1559499307313" duration="3198000" />
+      <workItem from="1559552319384" duration="1108000" />
+      <workItem from="1559565073050" duration="1139000" />
+      <workItem from="1559592917620" duration="3932000" />
+      <workItem from="1559665790344" duration="458000" />
+      <workItem from="1559667237129" duration="4416000" />
+      <workItem from="1559727880758" duration="5499000" />
+      <workItem from="1560012465727" duration="1605000" />
+      <workItem from="1560030972909" duration="1172000" />
+      <workItem from="1560072645414" duration="5991000" />
+      <workItem from="1560192964460" duration="679000" />
+      <workItem from="1560194028761" duration="602000" />
+      <workItem from="1560196765114" duration="29000" />
+      <workItem from="1560247742148" duration="5538000" />
+      <workItem from="1560431213833" duration="1115000" />
+      <workItem from="1560726566227" duration="721000" />
+      <workItem from="1561132356337" duration="368000" />
+      <workItem from="1561472404847" duration="753000" />
+      <workItem from="1561636283982" duration="493000" />
+      <workItem from="1561641971190" duration="606000" />
+      <workItem from="1561708430946" duration="17664000" />
+      <workItem from="1561802643606" duration="9153000" />
+      <workItem from="1561892138099" duration="8218000" />
+      <workItem from="1561972968835" duration="2327000" />
+      <workItem from="1562074648206" duration="3260000" />
+      <workItem from="1562183276887" duration="3038000" />
+      <workItem from="1562315486440" duration="3194000" />
+      <workItem from="1562356983052" duration="8287000" />
+      <workItem from="1562410576951" duration="6415000" />
+      <workItem from="1562501980018" duration="4207000" />
+      <workItem from="1562530412728" duration="597000" />
+      <workItem from="1562619400570" duration="3529000" />
+      <workItem from="1562689235673" duration="5110000" />
+      <workItem from="1562785617080" duration="75000" />
+      <workItem from="1567084688032" duration="76000" />
+      <workItem from="1567189546249" duration="783000" />
+      <workItem from="1567203671925" duration="1449000" />
+      <workItem from="1567243325462" duration="2174000" />
+      <workItem from="1567286760890" duration="360000" />
+      <workItem from="1568111267609" duration="2846000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;10-09-2019&quot;">
+      <created>1568113678935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568113678935</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;10-09-2019&quot;">
+      <created>1568113745205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568113745205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;10-09-2019&quot;">
+      <created>1568115535856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568115535856</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 32m 48s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 35m 51s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 39m 14s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 40m 50s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 41m 17s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 44m 39s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 51m 25s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 55m 01s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 55m 52s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PacientServiceApplicationTests_deletePacByIdTest - 2019.07.06 at 14h 58m 55s.xml">
+      <configuration name="PacientServiceApplicationTests.deletePacByIdTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="189636000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16040269" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12889518" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4986577" visible="true" weight="0.57932013" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" visible="true" weight="0.57932013" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.15580736" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.44680852" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49818182" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.13265306" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5018182" side_tool="true" weight="0.24966443" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18979591" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12889518" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.1713881" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.15580736" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.31096563" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49818182" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.13265306" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5018182" side_tool="true" weight="0.24966443" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;10-09-2019&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;10-09-2019&quot;" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PolyClinicWeb$PacientServiceApplicationTests_contextLoads.ic" NAME="PacientServiceApplicationTests.contextLoads Coverage Results" MODIFIED="1561895454920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.polyclinic.pacientservice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PolyClinicWeb$PacientServiceApplicationTests.ic" NAME="PacientServiceApplicationTests Coverage Results" MODIFIED="1562410610674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.polyclinic.pacientservice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PolyClinicWeb$pacient_service.ic" NAME="pacient-service Coverage Results" MODIFIED="1561895025626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/appointments-service/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-api-gateway/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/build/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#77#84#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/web/servlet/MockMvc.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appointments-service/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appointments-service/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appointments-service/storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eureka-server/src/test/java/com/polyclinic/eurekaserver/EurekaServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/models/Pacient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/test/java/com/polyclinic/pacientservice/PacientServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/PacientServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/AppointmentServiceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-api-gateway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/ZuulApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/security/JwtConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-api-gateway/src/main/java/com/polyclinic/zuulapigateway/security/JwtAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appointments-service/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/build/images/back_disabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/build/images/back_enabled_hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/build/images/forward_enabled.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/build/images/loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/includes/head.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/includes/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/includes/head-calendar.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/includes/left-panel.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/includes/test.html" />
+    <entry file="file://$PROJECT_DIR$/client/views/calendarView.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/controllers/PacientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/includes/top-navigation.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/SpringEurekaAuthApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/JwtUsernameAndPasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/SecurityCredentialsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/JwtConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/repositories/PacientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pacient-service/src/main/java/com/polyclinic/pacientservice/services/PacientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-eureka-auth/src/main/java/com/eureka/auth/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="233" selection-start-line="21" selection-start-column="233" selection-end-line="21" selection-end-column="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/pacientet.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

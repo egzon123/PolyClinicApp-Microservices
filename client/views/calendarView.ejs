@@ -1,0 +1,54 @@
+<%- include('../includes/head-calendar.ejs') %>
+<%- include('../includes/left-panel.ejs') %>
+<%- include('../includes/top-navigation.ejs') %>
+ <!-- page content -->
+
+ <div class="right_col" role="main">
+        
+          <div class="page-title" style="height: 600px">
+            <div class="title_left">
+              <h3>Home <small>/Terminet</small></h3>
+            </div>
+
+         
+    
+       
+		<div id="scheduler_here" class="dhx_cal_container" style='width:100%; height:100%;'>
+			<div class="dhx_cal_navline">
+				<div class="dhx_cal_prev_button">&nbsp;</div>
+				<div class="dhx_cal_next_button">&nbsp;</div>
+				<div class="dhx_cal_today_button"></div>
+				<div class="dhx_cal_date"></div>
+				<div class="dhx_cal_tab" name="day_tab"></div>
+				<div class="dhx_cal_tab" name="week_tab"></div>
+				<div class="dhx_cal_tab" name="month_tab"></div>
+			</div>
+			<div class="dhx_cal_header"></div>
+			<div class="dhx_cal_data"></div>
+		</div>
+
+  </div>
+                  
+                  
+           
+              </div>
+           
+            <script>
+                scheduler.config.xml_date="%Y-%m-%d %H:%i";
+                scheduler.init("scheduler_here", new Date(2018, 0, 20), "week");
+                scheduler.setLoadMode("day");
+          
+                // load data from backend
+                scheduler.load("http://localhost:2000/events", "json");
+          
+                // connect backend to scheduler
+                var dp = new dataProcessor("http://localhost:2000/events");
+                dp.init(scheduler);
+          
+                // set data exchange mode
+                dp.setTransactionMode("REST");
+              </script>
+  <!-- /page content -->
+
+  <%- include('../includes/footer.ejs') %>
+

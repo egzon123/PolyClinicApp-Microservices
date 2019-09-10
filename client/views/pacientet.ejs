@@ -1,0 +1,328 @@
+<%- include('../includes/head.ejs') %>
+<%- include('../includes/left-panel.ejs') %>
+<%- include('../includes/top-navigation.ejs') %>
+ <!-- page content -->
+ <div class="right_col" role="main">
+    <div class="">
+      <div class="page-title">
+        <div class="title_left">
+          <h3>Home <small>/pacientet</small></h3>
+        </div>
+
+
+        
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="x_panel">
+            <div class="x_title">
+              <h2>Pacientet</h2>
+            
+              <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+            <a href="/regjistro-pacientin"><button type="button" class="btn btn-round btn-info" style="margin-bottom: 10px"><i class="fa fa-user-plus" style="margin-right: 10px"></i>Shto Pacient</button></a>  
+              <table id="datatable-buttons" class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th>Nr_identifikues</th>
+                    <th>Emri</th>
+                    <th>Mbiemri</th>
+                    <th>Emri prindit</th>
+                    <th>Gjinia</th>
+                    <th>Data e Lindjes</th>
+                    <th>Email</th>
+                    <th>Vendlindja</th>
+
+                    <th>Tel</th>
+                    <th>Semundje Kronike</th>
+                    <th>Alergji</th>
+                    <th>Edito/Fshije</th>
+                  </tr>
+                </thead>
+
+
+                <tbody>
+                    <% for(let pac of pacients) { %>
+                    
+                  <tr>
+                    <td>  <%= pac.nrPersonal %></td>
+                    <td>  <%= pac.emri %></td>
+                    <td>  <%= pac.mbiemri %></td>
+                    <td>  <%= pac.emriPrindit %></td>
+                    <td>  <%= pac.gjinia %></td>
+                    <%
+                    var dataL = "";
+               ;
+                    if(pac.dataLindjes != null){
+                      var str = pac.dataLindjes+''
+                      var d = str.split('-');
+                      var day = d[2].substring(0,2);
+                       dataL =d[0]+' '+d[1]+' '+day;
+                    }
+              
+                    %>
+                    <td>  <%= dataL %></td>
+                    <td>  <%= pac.adresa %></td>
+                    <td>  <%= pac.vendlindja %></td>
+                    <td>  <%= pac.tel %></td>
+                    <td>  <%= pac.semundjeKronike %></td>
+                    <td>  <%= pac.alergji %></td>
+
+              
+                    <td><a href="#"><i  data-toggle="modal" data-target="#editModal"  
+                      data-pac="<%= pac.id %>-<%= pac.nrPersonal %>-<%= pac.emri %>-<%= pac.mbiemri %>-<%= pac.emriPrindit %>-<%= pac.gjinia %>-<%=dataL %>-<%= pac.vendlindja %>-<%= pac.adresa %>-<%= pac.tel %>-<%= pac.semundjeKronike %>-<%= pac.alergji %> "
+                       class="fa fa-edit" style="font-size:20px;color:cornflowerblue; margin-right: 10px;" ></i></a><a  href = "#"><i   data-toggle="modal" data-target="#deleteModal" data-pac="<%= pac.id  %> <%= pac.emri  %> <%= pac.mbiemri  %>" class="fa fa-trash-o" style="font-size:20px;color:red"></i></a></td>
+                     
+                  </tr>
+ 
+
+                  <% } %>
+<!-- 
+                  <tr th:each="pac : ${pacients}">
+
+                    <td th:text="${pac.nrPersonal}"></td>
+                    <td th:text="${pac.emri}"></td>
+                    <td th:text="${pac.emriPrindit}"></td>
+                    <td th:text="${pac.mbiemri}"></td>
+                    <td th:text="${pac.gjinia}"></td>
+                  
+                    <td th:text="${pac.dataLindjes}"></td>
+                    <td th:text="${pac.adresa}"></td>
+                    <td th:text="${pac.vendlindja}"></td>
+                    <td th:text="${pac.tel}"></td>
+                    <td th:text="${pac.semundjeKronike}"></td>
+                    <td th:text="${pac.alergji}"></td>
+                    
+                    
+                </tr> -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!--Edit  Modal -->
+   <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Edito Pacientin</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+           <form class="form-horizontal form-label-left" id="editForm" method="POST" action="nothing" th:object="${pacient}" novalidate>
+   
+             <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="nrPersonal">Nr personal <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">   
+                 <input  th:field="*{pacient.nrPersonal}" id="nrPersonal" class="form-control col-md-7 col-xs-12"  name="nrPersonal" placeholder="numri personal" required="required" type="text">
+               </div>
+             </div>
+   
+             <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="emri">Emri <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <input  th:field="*{pacient.emri}" type="text" id="emri" name="emri" required="required" class="form-control col-md-7 col-xs-12">
+               </div>
+             </div>
+   
+                <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="mbiemri">Mbiemri <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <input  th:field="*{pacient.mbiemri}" type="text" id="mbiemri" name="mbiemri" required="required" class="form-control col-md-7 col-xs-12">
+               </div>
+             </div>
+   
+              <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="emriPrindit">Emri Prindit <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <input th:field="*{pacient.emriPrindit}" type="text" id="emriPrindit" name="emriPrindit" required="required" class="form-control col-md-7 col-xs-12">
+               </div>
+             </div>
+   
+               <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="emriPrindit">Gjinia <span class="required">*</span>
+               </label>
+                 <input th:field="*{pacient.gjinia}" id="gjiniaM" type="radio"  name="gjinia" value="M"> Male<br>
+                   <input th:field="*{pacient.gjinia}" id = "gjiniaF" type="radio" name="gjinia" value="F"> Female<br>
+   
+             </div>
+   
+   
+   
+   
+               <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dataLindjes">Data Lindjes <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <input  type="date" id="datalindjes" name="datalindjes" required="required" class="form-control col-md-7 col-xs-12">
+               </div>
+             </div>
+   
+         
+   
+              <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="vendlindja">Vendlindja <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <input th:field="*{pacient.vendlindja}" type="text" id="vendlindja" name="vendlindja" required="required" class="form-control col-md-7 col-xs-12">
+               </div>
+             </div>
+   
+               <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Email <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <input  th:field="*{pacient.adresa}" type="email" id="email" name="adresa" required="required" class="form-control col-md-7 col-xs-12">
+               </div>
+             </div>
+   
+              <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Tel <span class="required">*</span>
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <input th:field="*{pacient.tel}" type="text" id="tel" name="tel" required="required" class="form-control col-md-7 col-xs-12">
+               </div>
+             </div>
+         
+             <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="semudjeKronike">Semundje Kronike
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <textarea th:field="*{pacient.semundjeKronike}" id="semundjeKronike"  name="semundjeKronike" class="form-control col-md-7 col-xs-12"></textarea>
+               </div>
+             </div>
+   
+                <div class="item form-group">
+               <label class="control-label col-md-3 col-sm-3 col-xs-12" for="alergji">Alergji 
+               </label>
+               <div class="col-md-6 col-sm-6 col-xs-12">
+                 <textarea  th:field="*{pacient.semundjeKronike}" id="alergji"  name="alergji" class="form-control col-md-7 col-xs-12"></textarea>
+               </div>
+             </div>
+   
+   
+             <div class="ln_solid"></div>
+             <div class="form-group">
+               <div class="col-md-6 col-md-offset-3">
+                 <button type="submit" class="btn btn-primary">Cancel</button>
+                 <button id="send" type="submit" class="btn btn-success">Edito</button>
+               </div>
+             </div>
+           </form>
+       </div>
+    
+     </div>
+   </div>
+   </div>
+   <!-- Edit Modal end -->
+   
+   
+   <!-- Delete Modal -->
+   <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Fshije Pacientin</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+           
+          <p id= "paclabel"></p>
+           
+               
+           </div>
+           <div class="modal-footer">
+              <!-- <form action="http://localhost:8080/pacient-service/delete/11" method="post"> -->
+                <form id ="deleteForm" method="post" action ="nothing">
+             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             <button type="submit" class="btn btn-danger" >Fshije</button>
+            </form>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- END Delete Modal -->
+     <script>
+       var pacid ='';
+ $('#deleteModal').on('show.bs.modal', function(e) {
+  var pac = $(e.relatedTarget).data('pac');
+  console.log(pac);
+  var pac_Id_Emri_Mbiemri = pac.split(" ");
+  console.log(pac_Id_Emri_Mbiemri);
+  var pacid = pac_Id_Emri_Mbiemri[0];
+  var emri = pac_Id_Emri_Mbiemri[1];
+  var mbiemri = "";
+  if(pac_Id_Emri_Mbiemri.length == 3){
+     mbiemri = pac_Id_Emri_Mbiemri[2];
+  }else{
+    mbiemri = pac_Id_Emri_Mbiemri[3];
+  }
+  
+
+
+   
+ 
+  console.log(pacid);
+  document.getElementById("paclabel").innerHTML = "Deshironi ta fshini pacientin :"+ emri+" "+mbiemri +" ?";
+
+document.getElementById("deleteForm").action = "/deletePac/"+pacid;
+
+});   
+
+$('#editModal').on('show.bs.modal', function(e) {
+  var pac = $(e.relatedTarget).data('pac');
+  console.log(pac);
+  var pacInfo = pac.split("-");
+  var fulldate = pacInfo[6].split(" ");
+  var year = fulldate[0];
+  var month = fulldate[1];
+  var day = fulldate[2];
+ 
+
+  $('#nrPersonal').val(pacInfo[1]);
+  $('#emri').val(pacInfo[2]);
+  $('#mbiemri').val(pacInfo[3]);
+  $('#emriPrindit').val(pacInfo[4]);
+  if(pacInfo[5] =='M'){
+    $('#gjiniaM').attr('checked', 'checked');
+  }else if(pacInfo[5] =='F'){
+    $('#gjiniaF').attr('checked', 'checked');
+  }
+  var dateControl = document.querySelector('input[type="date"]');
+dateControl.value = year+"-"+month+"-"+day;
+
+  $('#vendlindja').val(pacInfo[7]);
+  $('#email').val(pacInfo[8]);
+  $('#tel').val(pacInfo[9]);
+  $('#semundjeKronike').val(pacInfo[10]);
+  $('#alergji').val(pacInfo[11]);
+  
+  // document.getElementById("editForm").action = "http://localhost:8080/pacient-service/edit/"+pacInfo[0];
+
+document.getElementById("editForm").action = "/editpac/"+pacInfo[0];
+});   
+
+
+  
+          </script>
+  <!-- /page content -->
+        
+  <%- include('../includes/footer.ejs') %>
