@@ -1,6 +1,6 @@
 # PolyClinicApp-Microservices
 <p align="center">
-![architecture](https://user-images.githubusercontent.com/43793677/68024358-d087b680-fca1-11e9-9772-02cd82a86b62.jpg)
+ <img src="/screenshots/architecture.jpg/" width="350" title="hover text">
   
   ![pacients-screenshot](https://user-images.githubusercontent.com/43793677/68024360-d087b680-fca1-11e9-838c-4f4ee0c260e6.JPG)
   
