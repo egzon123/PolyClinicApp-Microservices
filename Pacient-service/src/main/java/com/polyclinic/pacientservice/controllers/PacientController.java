@@ -1,11 +1,10 @@
 package com.polyclinic.pacientservice.controllers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import com.polyclinic.pacientservice.models.Pacient;
 import com.polyclinic.pacientservice.repositories.PacientRepository;
 import com.polyclinic.pacientservice.services.PacientService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,11 +14,8 @@ import org.springframework.web.servlet.view.RedirectView;
 import javax.net.ssl.HttpsURLConnection;
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 @RestController
@@ -46,15 +42,22 @@ public class PacientController {
     }
     @PostMapping("/addPacient")
     @CrossOrigin(origins = "http://localhost:3000")
-    public ResponseEntity<Void> addPacient(@RequestBody String formData) throws IOException {
+    public ResponseEntity<Pacient> addPacient(@RequestBody String formData)  {
         System.out.println("---------------------ADDED" +formData);
 
-        Pacient pacient = pacientService.addNewPaceint(formData);
+        Pacient pacient = null;
+        try {
+            pacient = pacientService.addNewPaceint(formData);
+            URI location = ServletUriComponentsBuilder.fromCurrentRequest().path(
+                    "/{id}").buildAndExpand(pacient.getId()).toUri();
+            return ResponseEntity.created(location).build();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new ResponseEntity<Pacient>(new HttpHeaders(),HttpStatus.FORBIDDEN);
+        }
 
 
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path(
-                "/{id}").buildAndExpand(pacient.getId()).toUri();
-         return ResponseEntity.created(location).build();
+
     }
 
     @RequestMapping(path="delete/{id}", method = RequestMethod.DELETE)

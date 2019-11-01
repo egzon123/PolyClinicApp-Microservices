@@ -25,6 +25,7 @@
     "eureka-js-client": "^4.4.2",
     "express": "^4.16.4",
     "express-thymeleaf": "^0.2.0",
+    "http-status-codes": "^1.3.2",
     "opn": "^6.0.0",
     "request": "^2.88.0",
     "thymeleaf": "^0.17.2"

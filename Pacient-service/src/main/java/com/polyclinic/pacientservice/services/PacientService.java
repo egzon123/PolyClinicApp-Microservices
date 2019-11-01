@@ -6,6 +6,7 @@ import com.polyclinic.pacientservice.models.Pacient;
 import com.polyclinic.pacientservice.repositories.PacientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -35,7 +36,7 @@ public class PacientService {
             return (int) pacientRepository.count();
         }
 
-        public Pacient addNewPaceint(String formData) throws IOException {
+        public Pacient addNewPaceint(String formData) throws Exception {
             System.out.println("---------------------TO Add" +formData);
 //            String [] array = formData.split(",");
 //
@@ -71,12 +72,26 @@ public class PacientService {
 //            }
 //            pac.setDataLindes(datalindjes);
             Pacient pac = convertFormData(formData);
+            if(existsPacient(pac.getNrPersonal())){
+                throw new Exception("Pacienti egziston");
+            }else{
+                System.out.println(pac.getDataLindjes());
+                System.out.println(pac.toString());
+                pacientRepository.save(pac);
+            }
 
-            System.out.println(pac.getDataLindjes());
-            System.out.println(pac.toString());
-            pacientRepository.save(pac);
+
             return pac;
         }
+
+    public boolean existsPacient(@PathVariable("nrIdentifikues") String nrIdentifikues){
+        for(Pacient pac: getPacients()){
+            if(pac.getNrPersonal().equalsIgnoreCase(nrIdentifikues)){
+                return true;
+            }
+        }
+        return false;
+    }
 
 
         public Pacient deletePacient(int id){
