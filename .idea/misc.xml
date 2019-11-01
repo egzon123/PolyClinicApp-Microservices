@@ -11,8 +11,9 @@
         <option value="$PROJECT_DIR$/zuul-api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/authentication-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-eureka-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/Staff-service/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8.0_171" project-jdk-type="JavaSDK" />
 </project>

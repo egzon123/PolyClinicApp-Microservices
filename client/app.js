@@ -4,7 +4,7 @@ const path = require('path');
 // const TemplateEngine = require("thymeleaf");
 const express = require('express');
 const bodyParser = require('body-parser');
-
+var HttpStatus = require('http-status-codes');
 var cors = require('cors');
 const request = require('request');
 var opn = require('opn');
@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 app.set('views', 'views');
 const axios = require("axios");
 
-var token = 'Bearer  eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNTY3MjY3ODcwLCJleHAiOjE1NjczNTQyNzB9.U4OcC1OKvnKfT8dvo5cgHm8WCP1uBAFkG33etRx0pUroJHAOtMG42LloGv3DHJ7Lx_lXZQKgr1V4NbvrHhqwqw';
+var token = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNTcyNjAyNTA2LCJleHAiOjE1NzI2ODg5MDZ9.6HmNqe3p8jmQm-deEqLxkUFYFtWAk-UGlUnw1q_vt0rVMIbaCk1S3-bMrhI_H_rNZaO7AO93oVM1GL5pgsrjkw';
 
 // const Eureka = require('eureka-js-client').Eureka;
 // // example configuration
@@ -126,6 +126,28 @@ app.get("/pacientet" ,function(req,response){
       });
 })
 
+app.get("/staff" ,function(req,response){
+
+    request({
+        url: 'http://localhost:8080/staff-service/api/staff',
+        headers: {
+            'Authorization': token
+        },
+        rejectUnauthorized: false
+    }, function(err, res) {
+        if(err) {
+            console.error(err);
+        } else {
+
+            response.render("staff",{
+
+                staffs :JSON.parse(res.body)
+            })
+        }
+
+    });
+})
+
 app.get("/google",function(req,res){
     
     opn('http://google.com');
@@ -201,9 +223,16 @@ app.post('/shto-pac',function(req,response){
               console.error(err);
             } else {
                 console.log(req.body.datalindjes);
-              
-                console.log("added");
-                response.redirect("http://localhost:3000/pacientet");
+             if(res.statusCode == 403){
+                 console.log(res.statusCode)
+                 console.log("pacient exists");
+
+             }else{
+                 console.log("added");
+                 response.redirect("http://localhost:3000/pacientet");
+             }
+
+
             }
       
       });

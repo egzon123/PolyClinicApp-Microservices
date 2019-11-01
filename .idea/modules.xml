@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PolyClinicWeb.iml" filepath="$PROJECT_DIR$/.idea/PolyClinicWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Staff-service/demo.iml" filepath="$PROJECT_DIR$/Staff-service/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pacient-service/pacient-service.iml" filepath="$PROJECT_DIR$/Pacient-service/pacient-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-eureka-auth/spring-eureka-auth.iml" filepath="$PROJECT_DIR$/spring-eureka-auth/spring-eureka-auth.iml" />
